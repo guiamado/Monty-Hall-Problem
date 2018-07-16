@@ -1,12 +1,16 @@
 <template>
     <div id="app">
         <h1>Monty Hall Problem</h1>
+        <Gift />
     </div>
 </template>
 
 <script>
-export default {
+import Gift from './components/Gift'
 
+export default {
+    name: 'App',
+    components: { Gift }
 }
 </script>
 
@@ -15,15 +19,18 @@ export default {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     color: #FFF;
     background: linear-gradient(to right, rgb(21, 153, 87), rgb(21, 87, 153));
 }
+
 #app {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 #app h1 {
     border: 1px solid #000;
     background-color: #0004;
