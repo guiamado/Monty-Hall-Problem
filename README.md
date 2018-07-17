@@ -1,4 +1,6 @@
-# montyhall
+# Monty Hall Problem
+O Monty Hall Problem é um quebra-cabeça conhecido, com base em um programa de Televisão *Let's Make a Deal*, onde originalmente vo cê tem 3 portas e tem que descobrir aonde está o prêmio.
+Esse projeto foi desenvolvido com a Tecnologia VueJS, cli 3.0.
 
 ## Project setup
 ```
