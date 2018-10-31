@@ -7,7 +7,7 @@ Esse projeto foi desenvolvido com a Tecnologia VueJS, cli 3.0.
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development teste
 ```
 npm run serve
 ```
